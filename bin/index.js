@@ -10,7 +10,7 @@ import * as sweet from './sweet.js';
 
 //VARIABLES
 const app = new Command();
-const name = 'dpod';
+const name = 'etstarter';
 const npmRoot = await sweet.getNpmRoot();
 const listHooks = [
 	'useEffect/Axios',
