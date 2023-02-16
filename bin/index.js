@@ -1,5 +1,3 @@
-#!/usr/bin/env node
-
 //IMPORTS
 import inquirer from 'inquirer';
 import { Command } from 'commander';
@@ -113,5 +111,4 @@ inquirer.prompt(questions).then(
 
 //INIT PROJECT
 app.parse(process.argv);
-
 export default app;
