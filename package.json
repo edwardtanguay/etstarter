@@ -1,6 +1,6 @@
 {
   "name": "etstarter",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "type": "module",
   "description": "CLI for Datapod",
   "main": "index.js",

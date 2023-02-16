@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 //IMPORTS
 import inquirer from 'inquirer';
 import { Command } from 'commander';
