@@ -2,14 +2,12 @@
 
 //IMPORTS
 import inquirer from 'inquirer';
-import { Command } from 'commander';
 import * as path from 'path';
 import chalk from 'chalk';
 import createProject from './createProject.js';
 import * as sweet from './sweet.js';
 
 //VARIABLES
-const app = new Command();
 const name = 'etstarter';
 const npmRoot = await sweet.getNpmRoot();
 const listHooks = [
@@ -112,5 +110,3 @@ inquirer.prompt(questions).then(
 );
 
 //INIT PROJECT
-app.parse(process.argv);
-export default app;
